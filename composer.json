@@ -1,0 +1,21 @@
+{
+    "name": "ohooki/omac",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hoooki",
+            "email": "hooki.kibo@gmail.com"
+        }
+    ],
+    "minimum-stability": "alpha",
+    "require": {
+        "php": ">=7.3",
+        "illuminate/support": "^8.14"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ohooki\\Omac\\": "src/"
+        }
+    }
+}
